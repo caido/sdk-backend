@@ -24,12 +24,6 @@ jobs:
         with:
           version: 9
 
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Build
-        run: pnpm run build
-
       - name: Publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_BOT_TOKEN }}
