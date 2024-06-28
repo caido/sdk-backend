@@ -1,12 +1,10 @@
 {
   "name": "@caido/sdk-backend",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Typing for the Caido Backend SDK",
   "author": "Caido Labs Inc. <dev@caido.io>",
   "license": "MIT",
   "types": "./src/index.d.ts",
-  "main": "./src/index.js",
-  "module": "./src/index.js",
   "files": [
     "src/*"
   ]
