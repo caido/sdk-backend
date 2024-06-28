@@ -1,4 +1,4 @@
-declare module "caido:common" {
+declare module "caido:utils" {
   /**
    * The body of a Request or Response.
    *

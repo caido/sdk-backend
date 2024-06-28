@@ -1,5 +1,5 @@
-declare module "caido:sdk" {
-  import { MaybePromise, FindingsSDK, RequestsSDK } from "caido:common";
+declare module "caido:plugin" {
+  import { MaybePromise, FindingsSDK, RequestsSDK } from "caido:utils";
 
   export type DefineAPI<
     API extends Record<string, (...args: any[]) => MaybePromise<any>>,
